@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    height: 100%;
+    min-height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    display: block;
+    padding-left: 35%;
+    padding-top: 150px;
+
+}
+
+.card_con{
+    width: 375px;
+    border: 1px solid black;
+    border-radius: 15px;
+   
+    transition: 0.3s;
+}
+
+.card {
+    justify-content: center;
+    flex-direction: column;
+    width: 336px;
+    height: 481px;
+    border-radius: 15px;
+    box-shadow: 9px 11px 0px 0px rgba(1, 1,1, 1);
+    transition: 0.3s;
+    padding: 14px 20px;
+    background-color: #fff;
+}
+.learning {
+    width: 5rem;
+    height: 25px;
+    align-items: center;
+    background: hsl(47, 88%, 63%);
+    border-radius: 5px;
+}
+.content{
+    align-items: center;
+    padding-top: 20px;
+    /* line-height: 1.5; */
+    font-family: 'Figtree';
+}
+.content h4{
+    font-size: 16px;
+    padding-left: 10%;
+    /* padding-top: 3px; */
+}
+
+.content p{
+    padding-top: 20px;
+    font-size: 16px;
+    color:  hsl(0, 0%, 50%);
+}
+.content span{
+    line-height: 3.0;
+    color:  hsl(0, 0%, 7%);
+}
+/* .content h2{
+    padding-top: 40px;
+} */
+.img_box svg{
+    justify-content: center;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+.avtar {
+    width: 20%;
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* padding-top: 45px; */
+}
+
+.avtar_img{
+    width: 30px;
+    /* size: 50px; */
+    padding-top: 13%;
+}
+.avtar h4{
+    font-family: 'Figtree';
+    font-size: 15px;
+   padding-bottom: 5px; 
+}
+h3{
+    font-size: 16px;
+    font-family: 'Figtree';
+    padding-left: 20%;
+    padding-bottom: 10%;
+    /* display: block; */
+}
+
+.attribution{
+    padding-top: 15px;
+}
